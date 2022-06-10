@@ -42,10 +42,13 @@ main {
     border-radius: 25px 0 0 25px;
 }
 .words {
-   display: none;
-   text-decoration: none;
-   color:var(--main-color);
-   text-transform: capitalize;
+    display: none;
+    text-decoration: none;
+    color:var(--main-color);
+    text-transform: capitalize;
+}
+.link .words:first-of-type {
+    color: var(--second-color);
 }
 .menu:hover {
     width: 206px;
