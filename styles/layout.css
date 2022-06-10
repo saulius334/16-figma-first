@@ -8,7 +8,7 @@ main {
     flex-direction: column;
     height: 100vh;
     width: 100px;
-    background-color: #F7F6FF;
+    background-color: var(--bg-color);
     gap:34px;
     padding-top: 52px;
     align-items: center;
@@ -22,7 +22,7 @@ main {
 }
 .line {
     width: 60%;
-    border-bottom: 2px solid #C4C4C4;
+    border-bottom: 2px solid var(--main-color);
 }
 .link {
     align-self: flex-start;
@@ -44,7 +44,7 @@ main {
 .words {
    display: none;
    text-decoration: none;
-   color:#C4C4C4;
+   color:var(--main-color);
    text-transform: capitalize;
 }
 .menu:hover {
@@ -64,11 +64,11 @@ footer {
     flex-direction: column;
     align-items: center;
     gap: 11px;
-    color: #02577A;
+    color: var(--second-color);
 }
 .footerline {
     width: 100%;
     
-    border-bottom: 1px solid #02577A;
+    border-bottom: 1px solid var(--second-color);
 }
 

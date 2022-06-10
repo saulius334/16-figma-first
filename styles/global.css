@@ -11,5 +11,8 @@ body {
 }
 :root {
     background: #E5E5E5;
-    --main-color: #
+    font-family: 'Montserrat', sans-serif;
+    --main-color: #C4C4C4;
+    --second-color: #02577A;
+    --bg-color: #F7F6FF;
 }
