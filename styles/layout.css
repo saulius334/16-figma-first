@@ -1,0 +1,74 @@
+@import '../styles/global.css';
+
+main {
+    width: 100%;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100px;
+    background-color: #F7F6FF;
+    gap:34px;
+    padding-top: 52px;
+    align-items: center;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.menu:hover .words{
+    display: inline-block;
+    margin-left: 19px;
+}
+.line {
+    width: 60%;
+    border-bottom: 2px solid #C4C4C4;
+}
+.link {
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    margin-left: 37px;
+}
+.link:last-of-type {
+    margin-left: 30px;
+}
+.home {
+    margin-left:10px;
+    width: 206px;
+    height: 57px;
+    background-color: #FFFFFF;
+    padding: 16px 19px 16px 32px;
+    border-radius: 25px 0 0 25px;
+}
+.words {
+   display: none;
+   text-decoration: none;
+   color:#C4C4C4;
+   text-transform: capitalize;
+}
+.menu:hover {
+    width: 206px;
+}
+footer {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    bottom: 10px;
+}
+.footerbox {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 11px;
+    color: #02577A;
+}
+.footerline {
+    width: 100%;
+    
+    border-bottom: 1px solid #02577A;
+}
+
