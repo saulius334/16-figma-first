@@ -1,77 +1,76 @@
-@import '../styles/global.css';
+@import "../styles/global.css";
 
 main {
-    width: 100%;
+  width: 100%;
 }
 .menu {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    width: 100px;
-    background-color: var(--bg-color);
-    gap:34px;
-    padding-top: 52px;
-    align-items: center;
-    overflow: hidden;
-    transition: 1s;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100px;
+  background-color: var(--bg-color);
+  gap: 34px;
+  padding-top: 52px;
+  align-items: center;
+  overflow: hidden;
+  transition: 1s;
 }
 
-.menu:hover .words{
-    display: inline-block;
-    margin-left: 19px;
+.menu:hover .words {
+  display: inline-block;
+  margin-left: 19px;
 }
 .line {
-    width: 60%;
-    border-bottom: 2px solid var(--main-color);
+  width: 60%;
+  border-bottom: 2px solid var(--main-color);
 }
 .link {
-    align-self: flex-start;
-    display: flex;
-    align-items: center;
-    margin-left: 37px;
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+  margin-left: 37px;
 }
 .link:last-of-type {
-    margin-left: 30px;
+  margin-left: 30px;
 }
 .home {
-    margin-left:10px;
-    width: 206px;
-    height: 57px;
-    background-color: #FFFFFF;
-    padding: 16px 19px 16px 32px;
-    border-radius: 25px 0 0 25px;
+  margin-left: 10px;
+  width: 206px;
+  height: 57px;
+  background-color: #ffffff;
+  padding: 16px 19px 16px 32px;
+  border-radius: 25px 0 0 25px;
 }
 .words {
-    display: none;
-    text-decoration: none;
-    color:var(--main-color);
-    text-transform: capitalize;
+  display: none;
+  text-decoration: none;
+  color: var(--main-color);
+  text-transform: capitalize;
 }
 .link .words:first-of-type {
-    color: var(--second-color);
+  color: var(--second-color);
 }
 .menu:hover {
-    width: 206px;
+  width: 206px;
 }
 footer {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    bottom: 10px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  bottom: 10px;
 }
 .footerbox {
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 11px;
-    color: var(--second-color);
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 11px;
+  color: var(--second-color);
 }
 .footerline {
-    width: 100%;
-    
-    border-bottom: 1px solid var(--second-color);
-}
+  width: 100%;
 
+  border-bottom: 1px solid var(--second-color);
+}
